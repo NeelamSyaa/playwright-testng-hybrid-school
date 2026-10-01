@@ -12,7 +12,6 @@ public class BaseTest {
 
     @BeforeSuite
     public void globalSuiteSetup() {
-        // 🚀 Logs in exactly ONCE at the start of all executions to create the state.json token file
         AuthManager.captureAndSaveToken();
     }
 
