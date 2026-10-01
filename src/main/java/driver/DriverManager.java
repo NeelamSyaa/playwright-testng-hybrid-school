@@ -31,6 +31,11 @@ public class DriverManager {
             .setStorageStatePath(Paths.get(AuthManager.getStorageStatePath())));
 
         page = context.newPage();
+        String waitSeconds = ConfigManager.getImplicitWait();
+        if (waitSeconds != null && !waitSeconds.trim().isEmpty()) {
+            int timeoutMs = Integer.parseInt(waitSeconds.trim()) * 1000;
+            context.setDefaultTimeout(timeoutMs);
+        }
     }
 
    

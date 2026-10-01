@@ -2,55 +2,38 @@
 <testng-results ignored="0" total="1" passed="0" failed="0" skipped="1">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2026-10-01T12:37:19 IST" name="Default suite" finished-at="2026-10-01T12:37:22 IST" duration-ms="2375">
+  <suite started-at="2026-10-01T15:19:27 IST" name="Default suite" finished-at="2026-10-01T15:20:00 IST" duration-ms="32394">
     <groups>
     </groups>
-    <test started-at="2026-10-01T12:37:19 IST" name="Default test" finished-at="2026-10-01T12:37:22 IST" duration-ms="2375">
-      <class name="com.school.automation.tests.DeshboadMyfleetTest">
-        <test-method is-config="true" signature="globalSuiteSetup()[pri:0, instance:com.school.automation.tests.DeshboadMyfleetTest@7bbc8656]" started-at="2026-10-01T12:37:10 IST" name="globalSuiteSetup" finished-at="2026-10-01T12:37:19 IST" duration-ms="8982" status="PASS">
+    <test started-at="2026-10-01T15:19:27 IST" name="Default test" finished-at="2026-10-01T15:20:00 IST" duration-ms="32394">
+      <class name="com.school.automation.tests.InstituteModuleTest">
+        <test-method is-config="true" signature="globalSuiteSetup()[pri:0, instance:com.school.automation.tests.InstituteModuleTest@7dfd3c81]" started-at="2026-10-01T15:19:21 IST" name="globalSuiteSetup" finished-at="2026-10-01T15:19:27 IST" duration-ms="6609" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- globalSuiteSetup -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:com.school.automation.tests.DeshboadMyfleetTest@7bbc8656]" started-at="2026-10-01T12:37:19 IST" name="setUp" finished-at="2026-10-01T12:37:21 IST" duration-ms="2142" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.school.automation.tests.InstituteModuleTest@7dfd3c81]" started-at="2026-10-01T15:19:27 IST" name="setUp" finished-at="2026-10-01T15:19:29 IST" duration-ms="1850" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method is-config="true" signature="setupClassSession()[pri:0, instance:com.school.automation.tests.DeshboadMyfleetTest@7bbc8656]" started-at="2026-10-01T12:37:21 IST" name="setupClassSession" finished-at="2026-10-01T12:37:21 IST" duration-ms="6" status="FAIL">
-          <exception class="com.microsoft.playwright.PlaywrightException">
+        <test-method is-config="true" signature="setupClassSession()[pri:0, instance:com.school.automation.tests.InstituteModuleTest@7dfd3c81]" started-at="2026-10-01T15:19:29 IST" name="setupClassSession" finished-at="2026-10-01T15:19:59 IST" duration-ms="30371" status="FAIL">
+          <exception class="com.microsoft.playwright.TimeoutError">
             <message>
-              <![CDATA[Error {
-  message='url: expected string, got undefined
-  name='Error
-  stack='Error: url: expected string, got undefined
-    at tString (C:\Users\Admin\AppData\Local\Temp\playwright-java-11570386259984417603\package\lib\coreBundle.js:15236:13)
-    at C:\Users\Admin\AppData\Local\Temp\playwright-java-11570386259984417603\package\lib\coreBundle.js:15283:26
-    at DispatcherConnection.dispatch (C:\Users\Admin\AppData\Local\Temp\playwright-java-11570386259984417603\package\lib\coreBundle.js:18738:25)
-    at transport.onmessage (C:\Users\Admin\AppData\Local\Temp\playwright-java-11570386259984417603\package\lib\coreBundle.js:69259:59)
-    at Immediate._onImmediate (C:\Users\Admin\AppData\Local\Temp\playwright-java-11570386259984417603\package\lib\coreBundle.js:34593:20)
-    at process.processImmediate (node:internal/timers:534:21)
-}]]>
+              <![CDATA[Timeout 30000ms exceeded]]>
             </message>
             <full-stacktrace>
-              <![CDATA[com.microsoft.playwright.PlaywrightException: Error {
-  message='url: expected string, got undefined
-  name='Error
-  stack='Error: url: expected string, got undefined
-    at tString (C:\Users\Admin\AppData\Local\Temp\playwright-java-11570386259984417603\package\lib\coreBundle.js:15236:13)
-    at C:\Users\Admin\AppData\Local\Temp\playwright-java-11570386259984417603\package\lib\coreBundle.js:15283:26
-    at DispatcherConnection.dispatch (C:\Users\Admin\AppData\Local\Temp\playwright-java-11570386259984417603\package\lib\coreBundle.js:18738:25)
-    at transport.onmessage (C:\Users\Admin\AppData\Local\Temp\playwright-java-11570386259984417603\package\lib\coreBundle.js:69259:59)
-    at Immediate._onImmediate (C:\Users\Admin\AppData\Local\Temp\playwright-java-11570386259984417603\package\lib\coreBundle.js:34593:20)
-    at process.processImmediate (node:internal/timers:534:21)
-}
-at com.microsoft.playwright.impl.WaitableResult.get(WaitableResult.java:58)
+              <![CDATA[com.microsoft.playwright.TimeoutError: Timeout 30000ms exceeded
+at com.microsoft.playwright.impl.WaitableTimeout.get(WaitableTimeout.java:41)
+at com.microsoft.playwright.impl.WaitableRace.get(WaitableRace.java:46)
 at com.microsoft.playwright.impl.ChannelOwner.runUntil(ChannelOwner.java:147)
-at com.microsoft.playwright.impl.Connection.sendMessage(Connection.java:136)
-at com.microsoft.playwright.impl.ChannelOwner.sendMessage(ChannelOwner.java:133)
-at com.microsoft.playwright.impl.FrameImpl.navigateImpl(FrameImpl.java:429)
-at com.microsoft.playwright.impl.PageImpl.navigate(PageImpl.java:959)
-at com.microsoft.playwright.impl.PageImpl.navigate(PageImpl.java:44)
-at com.microsoft.playwright.Page.navigate(Page.java:5709)
-at com.school.automation.tests.DeshboadMyfleetTest.setupClassSession(DeshboadMyfleetTest.java:19)
+at com.microsoft.playwright.impl.FrameImpl.waitForNavigationImpl(FrameImpl.java:983)
+at com.microsoft.playwright.impl.FrameImpl.waitForURLImpl(FrameImpl.java:1044)
+at com.microsoft.playwright.impl.PageImpl.lambda$waitForURL$23(PageImpl.java:1648)
+at com.microsoft.playwright.impl.WaitForEventLogger.get(WaitForEventLogger.java:50)
+at com.microsoft.playwright.impl.ChannelOwner.withWaitLogging(ChannelOwner.java:84)
+at com.microsoft.playwright.impl.PageImpl.waitForURL(PageImpl.java:1647)
+at com.microsoft.playwright.impl.PageImpl.waitForURL(PageImpl.java:1633)
+at com.microsoft.playwright.Page.waitForURL(Page.java:8753)
+at com.school.automation.tests.InstituteModuleTest.setupClassSession(InstituteModuleTest.java:20)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
 at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -77,63 +60,31 @@ at org.testng.TestNG.run(TestNG.java:1079)
 at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
 at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
 at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
-Caused by: com.microsoft.playwright.impl.DriverException: Error {
-  message='url: expected string, got undefined
-  name='Error
-  stack='Error: url: expected string, got undefined
-    at tString (C:\Users\Admin\AppData\Local\Temp\playwright-java-11570386259984417603\package\lib\coreBundle.js:15236:13)
-    at C:\Users\Admin\AppData\Local\Temp\playwright-java-11570386259984417603\package\lib\coreBundle.js:15283:26
-    at DispatcherConnection.dispatch (C:\Users\Admin\AppData\Local\Temp\playwright-java-11570386259984417603\package\lib\coreBundle.js:18738:25)
-    at transport.onmessage (C:\Users\Admin\AppData\Local\Temp\playwright-java-11570386259984417603\package\lib\coreBundle.js:69259:59)
-    at Immediate._onImmediate (C:\Users\Admin\AppData\Local\Temp\playwright-java-11570386259984417603\package\lib\coreBundle.js:34593:20)
-    at process.processImmediate (node:internal/timers:534:21)
-}
-at com.microsoft.playwright.impl.Connection.dispatch(Connection.java:277)
-at com.microsoft.playwright.impl.Connection.processOneMessage(Connection.java:229)
-at com.microsoft.playwright.impl.ChannelOwner.runUntil(ChannelOwner.java:145)
-... 33 more
 ]]>
             </full-stacktrace>
-          </exception> <!-- com.microsoft.playwright.PlaywrightException -->
+          </exception> <!-- com.microsoft.playwright.TimeoutError -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setupClassSession -->
-        <test-method signature="vehiclemodule()[pri:0, instance:com.school.automation.tests.DeshboadMyfleetTest@7bbc8656]" started-at="2026-10-01T12:37:22 IST" name="vehiclemodule" finished-at="2026-10-01T12:37:22 IST" duration-ms="1" status="SKIP">
-          <exception class="com.microsoft.playwright.PlaywrightException">
+        <test-method signature="verifyCreateNewInstituteWorkflow()[pri:0, instance:com.school.automation.tests.InstituteModuleTest@7dfd3c81]" started-at="2026-10-01T15:20:00 IST" name="verifyCreateNewInstituteWorkflow" finished-at="2026-10-01T15:20:00 IST" duration-ms="0" status="SKIP">
+          <exception class="com.microsoft.playwright.TimeoutError">
             <message>
-              <![CDATA[Error {
-  message='url: expected string, got undefined
-  name='Error
-  stack='Error: url: expected string, got undefined
-    at tString (C:\Users\Admin\AppData\Local\Temp\playwright-java-11570386259984417603\package\lib\coreBundle.js:15236:13)
-    at C:\Users\Admin\AppData\Local\Temp\playwright-java-11570386259984417603\package\lib\coreBundle.js:15283:26
-    at DispatcherConnection.dispatch (C:\Users\Admin\AppData\Local\Temp\playwright-java-11570386259984417603\package\lib\coreBundle.js:18738:25)
-    at transport.onmessage (C:\Users\Admin\AppData\Local\Temp\playwright-java-11570386259984417603\package\lib\coreBundle.js:69259:59)
-    at Immediate._onImmediate (C:\Users\Admin\AppData\Local\Temp\playwright-java-11570386259984417603\package\lib\coreBundle.js:34593:20)
-    at process.processImmediate (node:internal/timers:534:21)
-}]]>
+              <![CDATA[Timeout 30000ms exceeded]]>
             </message>
             <full-stacktrace>
-              <![CDATA[com.microsoft.playwright.PlaywrightException: Error {
-  message='url: expected string, got undefined
-  name='Error
-  stack='Error: url: expected string, got undefined
-    at tString (C:\Users\Admin\AppData\Local\Temp\playwright-java-11570386259984417603\package\lib\coreBundle.js:15236:13)
-    at C:\Users\Admin\AppData\Local\Temp\playwright-java-11570386259984417603\package\lib\coreBundle.js:15283:26
-    at DispatcherConnection.dispatch (C:\Users\Admin\AppData\Local\Temp\playwright-java-11570386259984417603\package\lib\coreBundle.js:18738:25)
-    at transport.onmessage (C:\Users\Admin\AppData\Local\Temp\playwright-java-11570386259984417603\package\lib\coreBundle.js:69259:59)
-    at Immediate._onImmediate (C:\Users\Admin\AppData\Local\Temp\playwright-java-11570386259984417603\package\lib\coreBundle.js:34593:20)
-    at process.processImmediate (node:internal/timers:534:21)
-}
-at com.microsoft.playwright.impl.WaitableResult.get(WaitableResult.java:58)
+              <![CDATA[com.microsoft.playwright.TimeoutError: Timeout 30000ms exceeded
+at com.microsoft.playwright.impl.WaitableTimeout.get(WaitableTimeout.java:41)
+at com.microsoft.playwright.impl.WaitableRace.get(WaitableRace.java:46)
 at com.microsoft.playwright.impl.ChannelOwner.runUntil(ChannelOwner.java:147)
-at com.microsoft.playwright.impl.Connection.sendMessage(Connection.java:136)
-at com.microsoft.playwright.impl.ChannelOwner.sendMessage(ChannelOwner.java:133)
-at com.microsoft.playwright.impl.FrameImpl.navigateImpl(FrameImpl.java:429)
-at com.microsoft.playwright.impl.PageImpl.navigate(PageImpl.java:959)
-at com.microsoft.playwright.impl.PageImpl.navigate(PageImpl.java:44)
-at com.microsoft.playwright.Page.navigate(Page.java:5709)
-at com.school.automation.tests.DeshboadMyfleetTest.setupClassSession(DeshboadMyfleetTest.java:19)
+at com.microsoft.playwright.impl.FrameImpl.waitForNavigationImpl(FrameImpl.java:983)
+at com.microsoft.playwright.impl.FrameImpl.waitForURLImpl(FrameImpl.java:1044)
+at com.microsoft.playwright.impl.PageImpl.lambda$waitForURL$23(PageImpl.java:1648)
+at com.microsoft.playwright.impl.WaitForEventLogger.get(WaitForEventLogger.java:50)
+at com.microsoft.playwright.impl.ChannelOwner.withWaitLogging(ChannelOwner.java:84)
+at com.microsoft.playwright.impl.PageImpl.waitForURL(PageImpl.java:1647)
+at com.microsoft.playwright.impl.PageImpl.waitForURL(PageImpl.java:1633)
+at com.microsoft.playwright.Page.waitForURL(Page.java:8753)
+at com.school.automation.tests.InstituteModuleTest.setupClassSession(InstituteModuleTest.java:20)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
 at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -160,32 +111,17 @@ at org.testng.TestNG.run(TestNG.java:1079)
 at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
 at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
 at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
-Caused by: com.microsoft.playwright.impl.DriverException: Error {
-  message='url: expected string, got undefined
-  name='Error
-  stack='Error: url: expected string, got undefined
-    at tString (C:\Users\Admin\AppData\Local\Temp\playwright-java-11570386259984417603\package\lib\coreBundle.js:15236:13)
-    at C:\Users\Admin\AppData\Local\Temp\playwright-java-11570386259984417603\package\lib\coreBundle.js:15283:26
-    at DispatcherConnection.dispatch (C:\Users\Admin\AppData\Local\Temp\playwright-java-11570386259984417603\package\lib\coreBundle.js:18738:25)
-    at transport.onmessage (C:\Users\Admin\AppData\Local\Temp\playwright-java-11570386259984417603\package\lib\coreBundle.js:69259:59)
-    at Immediate._onImmediate (C:\Users\Admin\AppData\Local\Temp\playwright-java-11570386259984417603\package\lib\coreBundle.js:34593:20)
-    at process.processImmediate (node:internal/timers:534:21)
-}
-at com.microsoft.playwright.impl.Connection.dispatch(Connection.java:277)
-at com.microsoft.playwright.impl.Connection.processOneMessage(Connection.java:229)
-at com.microsoft.playwright.impl.ChannelOwner.runUntil(ChannelOwner.java:145)
-... 33 more
 ]]>
             </full-stacktrace>
-          </exception> <!-- com.microsoft.playwright.PlaywrightException -->
+          </exception> <!-- com.microsoft.playwright.TimeoutError -->
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- vehiclemodule -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.school.automation.tests.DeshboadMyfleetTest@7bbc8656]" started-at="2026-10-01T12:37:22 IST" name="tearDown" finished-at="2026-10-01T12:37:22 IST" duration-ms="0" status="SKIP">
+        </test-method> <!-- verifyCreateNewInstituteWorkflow -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.school.automation.tests.InstituteModuleTest@7dfd3c81]" started-at="2026-10-01T15:20:00 IST" name="tearDown" finished-at="2026-10-01T15:20:00 IST" duration-ms="0" status="SKIP">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-      </class> <!-- com.school.automation.tests.DeshboadMyfleetTest -->
+      </class> <!-- com.school.automation.tests.InstituteModuleTest -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

@@ -5,7 +5,7 @@ import org.testng.annotations.Test;
 
 import Config.FrameworkConfig;
 import pages.LoginPage;
-
+@Test(priority = 1)
 public class LoginTest  extends BaseTest{
 
 	  @Test

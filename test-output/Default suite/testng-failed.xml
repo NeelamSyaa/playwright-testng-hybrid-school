@@ -3,15 +3,15 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.school.automation.tests.DeshboadMyfleetTest">
+      <class name="com.school.automation.tests.InstituteModuleTest">
         <methods>
-          <include name="setupClassSession"/>
           <include name="tearDown"/>
           <include name="setUp"/>
+          <include name="setupClassSession"/>
           <include name="globalSuiteSetup"/>
-          <include name="vehiclemodule"/>
+          <include name="verifyCreateNewInstituteWorkflow"/>
         </methods>
-      </class> <!-- com.school.automation.tests.DeshboadMyfleetTest -->
+      </class> <!-- com.school.automation.tests.InstituteModuleTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

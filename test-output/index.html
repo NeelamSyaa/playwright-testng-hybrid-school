@@ -50,7 +50,7 @@
               <ul>
                 <li>
                   <a href="#" panel-name="test-xml-Default_suite" class="navigator-link ">
-                    <span>C:\Users\Admin\AppData\Local\Temp\testng-eclipse--792986194\testng-customsuite.xml</span>
+                    <span>C:\Users\Admin\AppData\Local\Temp\testng-eclipse-1612773629\testng-customsuite.xml</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
@@ -103,7 +103,7 @@
                     <div class="method-list-content skipped suite-Default_suite">
                       <span>
                         <img src="skipped.png" width="3%"/>
-                        <a href="#" panel-name="suite-Default_suite" title="com.school.automation.tests.DeshboadMyfleetTest" class="method navigator-link" hash-for-method="vehiclemodule">vehiclemodule</a> <!-- method navigator-link -->
+                        <a href="#" panel-name="suite-Default_suite" title="com.school.automation.tests.InstituteModuleTest" class="method navigator-link" hash-for-method="verifyCreateNewInstituteWorkflow">verifyCreateNewInstituteWorkflow</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                     </div> <!-- method-list-content skipped suite-Default_suite -->
@@ -121,34 +121,27 @@
           <div class="suite-Default_suite-class-skipped">
             <div class="main-panel-header rounded-window-top">
               <img src="skipped.png"/>
-              <span class="class-name">com.school.automation.tests.DeshboadMyfleetTest</span>
+              <span class="class-name">com.school.automation.tests.InstituteModuleTest</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
               <div class="method">
                 <div class="method-content">
-                  <a name="vehiclemodule">
-                  </a> <!-- vehiclemodule -->
-                  <span class="method-name">vehiclemodule</span>
-                  <div class="stack-trace">com.microsoft.playwright.PlaywrightException: Error {
-  message=&apos;url: expected string, got undefined
-  name=&apos;Error
-  stack=&apos;Error: url: expected string, got undefined
-    at tString (C:\Users\Admin\AppData\Local\Temp\playwright-java-11570386259984417603\package\lib\coreBundle.js:15236:13)
-    at C:\Users\Admin\AppData\Local\Temp\playwright-java-11570386259984417603\package\lib\coreBundle.js:15283:26
-    at DispatcherConnection.dispatch (C:\Users\Admin\AppData\Local\Temp\playwright-java-11570386259984417603\package\lib\coreBundle.js:18738:25)
-    at transport.onmessage (C:\Users\Admin\AppData\Local\Temp\playwright-java-11570386259984417603\package\lib\coreBundle.js:69259:59)
-    at Immediate._onImmediate (C:\Users\Admin\AppData\Local\Temp\playwright-java-11570386259984417603\package\lib\coreBundle.js:34593:20)
-    at process.processImmediate (node:internal/timers:534:21)
-}
-	at com.microsoft.playwright.impl.WaitableResult.get(WaitableResult.java:58)
+                  <a name="verifyCreateNewInstituteWorkflow">
+                  </a> <!-- verifyCreateNewInstituteWorkflow -->
+                  <span class="method-name">verifyCreateNewInstituteWorkflow</span>
+                  <div class="stack-trace">com.microsoft.playwright.TimeoutError: Timeout 30000ms exceeded
+	at com.microsoft.playwright.impl.WaitableTimeout.get(WaitableTimeout.java:41)
+	at com.microsoft.playwright.impl.WaitableRace.get(WaitableRace.java:46)
 	at com.microsoft.playwright.impl.ChannelOwner.runUntil(ChannelOwner.java:147)
-	at com.microsoft.playwright.impl.Connection.sendMessage(Connection.java:136)
-	at com.microsoft.playwright.impl.ChannelOwner.sendMessage(ChannelOwner.java:133)
-	at com.microsoft.playwright.impl.FrameImpl.navigateImpl(FrameImpl.java:429)
-	at com.microsoft.playwright.impl.PageImpl.navigate(PageImpl.java:959)
-	at com.microsoft.playwright.impl.PageImpl.navigate(PageImpl.java:44)
-	at com.microsoft.playwright.Page.navigate(Page.java:5709)
-	at com.school.automation.tests.DeshboadMyfleetTest.setupClassSession(DeshboadMyfleetTest.java:19)
+	at com.microsoft.playwright.impl.FrameImpl.waitForNavigationImpl(FrameImpl.java:983)
+	at com.microsoft.playwright.impl.FrameImpl.waitForURLImpl(FrameImpl.java:1044)
+	at com.microsoft.playwright.impl.PageImpl.lambda$waitForURL$23(PageImpl.java:1648)
+	at com.microsoft.playwright.impl.WaitForEventLogger.get(WaitForEventLogger.java:50)
+	at com.microsoft.playwright.impl.ChannelOwner.withWaitLogging(ChannelOwner.java:84)
+	at com.microsoft.playwright.impl.PageImpl.waitForURL(PageImpl.java:1647)
+	at com.microsoft.playwright.impl.PageImpl.waitForURL(PageImpl.java:1633)
+	at com.microsoft.playwright.Page.waitForURL(Page.java:8753)
+	at com.school.automation.tests.InstituteModuleTest.setupClassSession(InstituteModuleTest.java:20)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -175,21 +168,6 @@
 	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
 	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
 	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
-Caused by: com.microsoft.playwright.impl.DriverException: Error {
-  message=&apos;url: expected string, got undefined
-  name=&apos;Error
-  stack=&apos;Error: url: expected string, got undefined
-    at tString (C:\Users\Admin\AppData\Local\Temp\playwright-java-11570386259984417603\package\lib\coreBundle.js:15236:13)
-    at C:\Users\Admin\AppData\Local\Temp\playwright-java-11570386259984417603\package\lib\coreBundle.js:15283:26
-    at DispatcherConnection.dispatch (C:\Users\Admin\AppData\Local\Temp\playwright-java-11570386259984417603\package\lib\coreBundle.js:18738:25)
-    at transport.onmessage (C:\Users\Admin\AppData\Local\Temp\playwright-java-11570386259984417603\package\lib\coreBundle.js:69259:59)
-    at Immediate._onImmediate (C:\Users\Admin\AppData\Local\Temp\playwright-java-11570386259984417603\package\lib\coreBundle.js:34593:20)
-    at process.processImmediate (node:internal/timers:534:21)
-}
-	at com.microsoft.playwright.impl.Connection.dispatch(Connection.java:277)
-	at com.microsoft.playwright.impl.Connection.processOneMessage(Connection.java:229)
-	at com.microsoft.playwright.impl.ChannelOwner.runUntil(ChannelOwner.java:145)
-	... 33 more
 
 </div> <!-- stack-trace -->
                 </div> <!-- method-content -->
@@ -199,7 +177,7 @@ Caused by: com.microsoft.playwright.impl.DriverException: Error {
         </div> <!-- panel Default_suite -->
         <div panel-name="test-xml-Default_suite" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">C:\Users\Admin\AppData\Local\Temp\testng-eclipse--792986194\testng-customsuite.xml</span>
+            <span class="header-content">C:\Users\Admin\AppData\Local\Temp\testng-eclipse-1612773629\testng-customsuite.xml</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <pre>
@@ -208,7 +186,7 @@ Caused by: com.microsoft.playwright.impl.DriverException: Error {
 &lt;suite name=&quot;Default suite&quot; guice-stage=&quot;DEVELOPMENT&quot;&gt;
   &lt;test thread-count=&quot;5&quot; name=&quot;Default test&quot; verbose=&quot;2&quot;&gt;
     &lt;classes&gt;
-      &lt;class name=&quot;com.school.automation.tests.DeshboadMyfleetTest&quot;/&gt;
+      &lt;class name=&quot;com.school.automation.tests.InstituteModuleTest&quot;/&gt;
     &lt;/classes&gt;
   &lt;/test&gt; &lt;!-- Default test --&gt;
 &lt;/suite&gt; &lt;!-- Default suite --&gt;
@@ -250,14 +228,14 @@ data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
 data.addRows(1);
 data.setCell(0, 0, 0)
-data.setCell(0, 1, 'vehiclemodule')
-data.setCell(0, 2, 'com.school.automation.tests.DeshboadMyfleetTest')
-data.setCell(0, 3, 1);
+data.setCell(0, 1, 'verifyCreateNewInstituteWorkflow')
+data.setCell(0, 2, 'com.school.automation.tests.InstituteModuleTest')
+data.setCell(0, 3, 0);
 window.suiteTableData['Default_suite']= { tableData: data, tableDiv: 'times-div-Default_suite'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 1 ms</span>
+              <span class="suite-total-time">Total running time: 0 ms</span>
               <div id="times-div-Default_suite">
               </div> <!-- times-div-Default_suite -->
             </div> <!-- times-div -->
@@ -283,28 +261,28 @@ return data;
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <div class="chronological-class">
-              <div class="chronological-class-name">com.school.automation.tests.DeshboadMyfleetTest</div> <!-- chronological-class-name -->
+              <div class="chronological-class-name">com.school.automation.tests.InstituteModuleTest</div> <!-- chronological-class-name -->
               <div class="configuration-suite before">
                 <span class="method-name">globalSuiteSetup</span>
                 <span class="method-start">0 ms</span>
               </div> <!-- configuration-suite before -->
               <div class="configuration-class before">
                 <span class="method-name">setUp</span>
-                <span class="method-start">9016 ms</span>
+                <span class="method-start">6634 ms</span>
               </div> <!-- configuration-class before -->
               <div class="configuration-class before">
                 <img src="failed.png">
                 </img>
                 <span class="method-name">setupClassSession</span>
-                <span class="method-start">11159 ms</span>
+                <span class="method-start">8484 ms</span>
               </div> <!-- configuration-class before -->
               <div class="test-method">
-                <span class="method-name">vehiclemodule</span>
-                <span class="method-start">11341 ms</span>
+                <span class="method-name">verifyCreateNewInstituteWorkflow</span>
+                <span class="method-start">38991 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-class after">
                 <span class="method-name">tearDown</span>
-                <span class="method-start">11354 ms</span>
+                <span class="method-start">39003 ms</span>
               </div> <!-- configuration-class after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->

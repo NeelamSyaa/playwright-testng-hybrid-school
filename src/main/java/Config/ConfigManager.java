@@ -16,4 +16,8 @@ public class ConfigManager {
        
         return FrameworkConfig.get("headless");
     }
+    
+    public static String getImplicitWait() {
+        return FrameworkConfig.get("impcitiwait");
+    }
 }
