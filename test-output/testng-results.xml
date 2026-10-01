@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="0" failed="0" skipped="1">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2026-10-01T11:19:14 IST" name="Default suite" finished-at="2026-10-01T11:19:47 IST" duration-ms="32335">
+    <groups>
+    </groups>
+    <test started-at="2026-10-01T11:19:14 IST" name="Default test" finished-at="2026-10-01T11:19:47 IST" duration-ms="32335">
+      <class name="com.school.automation.tests.DeshboadMyfleetTest">
+        <test-method is-config="true" signature="globalSuiteSetup()[pri:0, instance:com.school.automation.tests.DeshboadMyfleetTest@7dfd3c81]" started-at="2026-10-01T11:19:07 IST" name="globalSuiteSetup" finished-at="2026-10-01T11:19:14 IST" duration-ms="7482" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- globalSuiteSetup -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.school.automation.tests.DeshboadMyfleetTest@7dfd3c81]" started-at="2026-10-01T11:19:14 IST" name="setUp" finished-at="2026-10-01T11:19:16 IST" duration-ms="1811" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="setupClassSession()[pri:0, instance:com.school.automation.tests.DeshboadMyfleetTest@7dfd3c81]" started-at="2026-10-01T11:19:16 IST" name="setupClassSession" finished-at="2026-10-01T11:19:46 IST" duration-ms="30358" status="FAIL">
+          <exception class="com.microsoft.playwright.TimeoutError">
+            <message>
+              <![CDATA[Timeout 30000ms exceeded]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[com.microsoft.playwright.TimeoutError: Timeout 30000ms exceeded
+at com.microsoft.playwright.impl.WaitableTimeout.get(WaitableTimeout.java:41)
+at com.microsoft.playwright.impl.WaitableRace.get(WaitableRace.java:46)
+at com.microsoft.playwright.impl.ChannelOwner.runUntil(ChannelOwner.java:147)
+at com.microsoft.playwright.impl.FrameImpl.waitForNavigationImpl(FrameImpl.java:983)
+at com.microsoft.playwright.impl.FrameImpl.waitForURLImpl(FrameImpl.java:1044)
+at com.microsoft.playwright.impl.PageImpl.lambda$waitForURL$23(PageImpl.java:1648)
+at com.microsoft.playwright.impl.WaitForEventLogger.get(WaitForEventLogger.java:50)
+at com.microsoft.playwright.impl.ChannelOwner.withWaitLogging(ChannelOwner.java:84)
+at com.microsoft.playwright.impl.PageImpl.waitForURL(PageImpl.java:1647)
+at com.microsoft.playwright.impl.PageImpl.waitForURL(PageImpl.java:1633)
+at com.microsoft.playwright.Page.waitForURL(Page.java:8753)
+at com.school.automation.tests.DeshboadMyfleetTest.setupClassSession(DeshboadMyfleetTest.java:17)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:71)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:400)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:333)
+at org.testng.internal.invokers.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:188)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:741)
+at org.testng.TestRunner.run(TestRunner.java:616)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+]]>
+            </full-stacktrace>
+          </exception> <!-- com.microsoft.playwright.TimeoutError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupClassSession -->
+        <test-method signature="vehiclemodule()[pri:0, instance:com.school.automation.tests.DeshboadMyfleetTest@7dfd3c81]" started-at="2026-10-01T11:19:47 IST" name="vehiclemodule" finished-at="2026-10-01T11:19:47 IST" duration-ms="0" status="SKIP">
+          <exception class="com.microsoft.playwright.TimeoutError">
+            <message>
+              <![CDATA[Timeout 30000ms exceeded]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[com.microsoft.playwright.TimeoutError: Timeout 30000ms exceeded
+at com.microsoft.playwright.impl.WaitableTimeout.get(WaitableTimeout.java:41)
+at com.microsoft.playwright.impl.WaitableRace.get(WaitableRace.java:46)
+at com.microsoft.playwright.impl.ChannelOwner.runUntil(ChannelOwner.java:147)
+at com.microsoft.playwright.impl.FrameImpl.waitForNavigationImpl(FrameImpl.java:983)
+at com.microsoft.playwright.impl.FrameImpl.waitForURLImpl(FrameImpl.java:1044)
+at com.microsoft.playwright.impl.PageImpl.lambda$waitForURL$23(PageImpl.java:1648)
+at com.microsoft.playwright.impl.WaitForEventLogger.get(WaitForEventLogger.java:50)
+at com.microsoft.playwright.impl.ChannelOwner.withWaitLogging(ChannelOwner.java:84)
+at com.microsoft.playwright.impl.PageImpl.waitForURL(PageImpl.java:1647)
+at com.microsoft.playwright.impl.PageImpl.waitForURL(PageImpl.java:1633)
+at com.microsoft.playwright.Page.waitForURL(Page.java:8753)
+at com.school.automation.tests.DeshboadMyfleetTest.setupClassSession(DeshboadMyfleetTest.java:17)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:71)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:400)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:333)
+at org.testng.internal.invokers.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:188)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:741)
+at org.testng.TestRunner.run(TestRunner.java:616)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+]]>
+            </full-stacktrace>
+          </exception> <!-- com.microsoft.playwright.TimeoutError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- vehiclemodule -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.school.automation.tests.DeshboadMyfleetTest@7dfd3c81]" started-at="2026-10-01T11:19:47 IST" name="tearDown" finished-at="2026-10-01T11:19:47 IST" duration-ms="0" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.school.automation.tests.DeshboadMyfleetTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
